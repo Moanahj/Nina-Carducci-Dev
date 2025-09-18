@@ -68,6 +68,7 @@ h1 {
 }
 
 .picture img {
+  max-width: 1000px;
   width: 100%;
 }
 #about-me {
@@ -99,7 +100,7 @@ h1 {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #8c7a33;
+  background-color: #5D5327;
   border-radius: 0;
 }
 .nav-pills .nav-link {
@@ -116,6 +117,7 @@ h1 {
   padding-bottom: 100%;
 }
 .gallery-item {
+  max-width: 1000px;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -124,6 +126,7 @@ h1 {
 }
 .mg-prev,
 .mg-next {
+  max-width: 1000px;
   width: 30px;
   height: 30px;
   border-radius: 00%;
@@ -198,7 +201,7 @@ h1 {
 }
 .picture.right::before {
   content: " ";
-  background-color: #8c7a33;
+  background-color: #5D5327;
   width: 374px;
   height: 329px;
   position: absolute;
@@ -234,7 +237,7 @@ form textarea {
   margin-bottom: 20px;
 }
 input[type="submit"] {
-  background-color: #8c7a33;
+  background-color: #867730;
   padding: 0.5em 1em;
 }
 
@@ -261,9 +264,11 @@ input[type="submit"] {
     flex-direction: column;
   }
   .picture {
+    max-width: 1000px;
     width: 50%;
   }
   .picture.left::before {
+    max-width: 1000px;
     width: 100%;
     height: 30%;
     position: absolute;
