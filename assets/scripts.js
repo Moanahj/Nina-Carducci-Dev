@@ -9,6 +9,7 @@ $(document).ready(function() {
         },
         lightBox: true,
         lightboxId: 'myAwesomeLightbox',
+        navigation: true,
         showTags: true,
         tagsPosition: 'top'
     });
